@@ -2,12 +2,12 @@
 //数组中不要使用下划线等字符，以免出错
 $config = array(
 	'title' => 'LY PHP 文件管理器',
-	'password' => '94a5f0635f5e7163fc23346870d55b52',//default 94a5f0635f5e7163fc23346870d55b52 使用密码的MD5值
+	'password' => '8b6a04b8704b201e0c5457461bfafc8e',//default 94a5f0635f5e7163fc23346870d55b52 使用密码的MD5值
 	'system' => array(
 		'404_page' => '',//404页面，留空默认系统
 		'cookie_prefix' => 'fm_',//COOKIE前缀,留空为空
 		'cookie_domain' => '',//COOKIE域名,留空为默认包含全部子域
-		'cookie_hash' => '68468gt579*&)&tgluik',//COOKIE加密字符串，留空不加密
+		'cookie_hash' => '684asd9*&)&tgluik',//COOKIE加密字符串，留空不加密
 	),
 	'mail' => array(//PHPmailer配置文件
 		'SMTPDebug'	=>	'2',
@@ -28,7 +28,7 @@ $config = array(
 /**
  * 是否使用调试模式，启用后会输出错误信息
  */
-define('_Debug_', false);
+define('_Debug_', true);
 if(_Debug_){
     ini_set('display_errors','on');
     error_reporting(E_ALL | E_STRICT);
